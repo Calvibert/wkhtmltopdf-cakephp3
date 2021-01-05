@@ -1,5 +1,5 @@
 {
-  "name": "grzegab/wkhtmltopdf",
+  "name": "calvibert/wkhtmltopdf",
   "type": "library",
   "description": "WKHTMLTOPDF generator for CakePHP3",
   "keywords": [
@@ -7,14 +7,17 @@
     "wkhtmltopdf",
     "cakephp3"
   ],
-  "homepage": "https://github.com/grzegab/wktohtmlpdf-cakephp3",
+  "homepage": "https://github.com/Calvibert/wkhtmltopdf-cakephp3",
   "license": "MIT",
   "authors": [
     {
       "name": "Grzegorz Gabryel",
       "email": "greg@grzegab.eu",
       "homepage": "http://grzegab.eu"
-    }
+    },
+	{
+	  "name": "Samuel Dufresne"
+	}
   ],
   "require": {
     "php": ">=5.4.0"
