@@ -124,7 +124,7 @@ class PdfGenerator extends AppController
             }
             $this->response->withType('txt');
             $this->response->withCharset($this->encoding);
-            $this->response->setBody('webroot/' . $this->pdfSavePath . $this->pdfName . '.pdf');
+            $this->response->body('webroot/' . $this->pdfSavePath . $this->pdfName . '.pdf');
         }
 
         if($this->pdfDownload) {
